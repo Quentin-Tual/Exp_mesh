@@ -1,0 +1,123 @@
+$date
+  Thu Feb  9 14:40:00 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb_ht_meshed_cut01 $end
+$var reg 8 ! tb_input_vector[7:0] $end
+$var reg 2 " tb_output_vector[1:0] $end
+$scope module uut $end
+$var reg 8 # input_vector[7:0] $end
+$var reg 2 $ output_vector[1:0] $end
+$var reg 2 % mesh[1:0] $end
+$var reg 8 & s0[7:0] $end
+$var reg 3 ' s1[2:0] $end
+$var reg 2 ( s2[1:0] $end
+$var reg 3 ) ma[2:0] $end
+$var reg 3 * mb[2:0] $end
+$var reg 1 + sht $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00000000 !
+b00 "
+b00000000 #
+b00 $
+b00 %
+b00000000 &
+b000 '
+b00 (
+bUUU )
+bUUU *
+0+
+#20000000000
+b00000001 !
+b00000001 #
+b00000001 &
+b001 '
+#40000000000
+b00000010 !
+b00000010 #
+b10 %
+b00000010 &
+#60000000000
+b00000011 !
+b00000011 #
+b00000011 &
+#80000000000
+b00000100 !
+b00000100 #
+b00 %
+b00000100 &
+b000 '
+#100000000000
+b00001000 !
+b00001000 #
+b01 %
+b00001000 &
+b010 '
+#120000000000
+b00010000 !
+b00010000 #
+b00010000 &
+#140000000000
+b00100000 !
+b10 "
+b00100000 #
+b10 $
+b01 %
+b00100000 &
+b100 '
+b10 (
+1+
+#160000000000
+b01000000 !
+b01000000 #
+b00 %
+b01000000 &
+#180000000000
+b01010101 !
+b00 "
+b01010101 #
+b00 $
+b00 %
+b01010101 &
+b111 '
+b11 (
+0+
+#200000000000
+b10101010 !
+b11 "
+b10101010 #
+b11 $
+b10 %
+b10101010 &
+b10 (
+1+
+#220000000000
+b01010101 !
+b00 "
+b01010101 #
+b00 $
+b00 %
+b01010101 &
+b11 (
+0+
+#240000000000
+b10101010 !
+b11 "
+b10101010 #
+b11 $
+b10 %
+b10101010 &
+b10 (
+1+
